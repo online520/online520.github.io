@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
@@ -23,11 +23,12 @@
   </script>
 
   <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
+<meta property="og:title" content="谭神冬">
 <meta property="og:url" content="https://online520.github.io/archives/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:locale" content="en_US">
-<meta property="article:author" content="online520">
+<meta property="og:site_name" content="谭神冬">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="Tlyer">
+<meta property="article:tag" content="Linux, gaussion, ORCA">
 <meta name="twitter:card" content="summary">
 
 <link rel="canonical" href="https://online520.github.io/archives/">
@@ -39,11 +40,11 @@
     sidebar: "",
     isHome : false,
     isPost : false,
-    lang   : 'en'
+    lang   : 'zh-CN'
   };
 </script>
 
-  <title>title.archive | Hexo</title>
+  <title>归档 | 谭神冬</title>
   
 
 
@@ -96,7 +97,10 @@
       <header class="header" itemscope itemtype="http://schema.org/WPHeader">
         <div class="header-inner"><div class="site-brand-container">
   <div class="site-nav-toggle">
-    <div class="toggle" aria-label="accessibility.nav_toggle">
+    <div class="toggle" aria-label="切换导航栏">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
     </div>
   </div>
 
@@ -104,9 +108,10 @@
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
-      <h1 class="site-title">Hexo</h1>
+      <h1 class="site-title">谭神冬</h1>
       <i class="logo-line"></i>
     </a>
+      <p class="site-subtitle" itemprop="description">生活还在找乐子</p>
   </div>
 
   <div class="site-nav-right">
@@ -117,6 +122,30 @@
 
 
 
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+  </ul>
+</nav>
 
 
 
@@ -135,10 +164,10 @@
     <div class="sidebar-inner sidebar-overview-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
-          sidebar.toc
+          文章目录
         </li>
         <li class="sidebar-nav-overview">
-          sidebar.overview
+          站点概览
         </li>
       </ul>
 
@@ -149,16 +178,25 @@
 
       <section class="site-overview-wrap sidebar-panel">
         <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
-  <p class="site-author-name" itemprop="name">online520</p>
+  <p class="site-author-name" itemprop="name">Tlyer</p>
   <div class="site-description" itemprop="description"></div>
 </div>
 <div class="site-state-wrap animated">
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
-          <a href="/archives">
-          <span class="site-state-item-count">2</span>
-          <span class="site-state-item-name">state.posts</span>
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-name">日志</span>
         </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">分类</span>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">标签</span>
       </div>
   </nav>
 </div>
@@ -196,13 +234,33 @@
   <div class="post-block">
     <div class="posts-collapse">
       <div class="collection-title">
-        <span class="collection-header">cheers.um! counter.archive_posts keep_on</span>
+        <span class="collection-header">嗯..! 目前共计 3 篇日志。 继续努力。</span>
       </div>
 
       
     <div class="collection-year">
       <span class="collection-header">2020</span>
     </div>
+
+  <article itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <div class="post-meta">
+        <time itemprop="dateCreated"
+              datetime="2020-08-23T15:19:35+08:00"
+              content="2020-08-23">
+          08-23
+        </time>
+      </div>
+
+      <div class="post-title">
+          <a class="post-title-link" href="/2020/08/23/lwl/" itemprop="url">
+            <span itemprop="name">lwl</span>
+          </a>
+      </div>
+
+    </header>
+  </article>
 
   <article itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
@@ -296,9 +354,9 @@
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">online520</span>
+  <span class="author" itemprop="copyrightHolder">Tlyer</span>
 </div>
-  <div class="powered-by">footer.powered
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/muse/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
   </div>
 
         
